@@ -53,7 +53,7 @@
       - 7002:80
     depends_on:
       - mongodb
-      - rabbitmqs
+      - rabbitmq
   identity-svc:
     image: quyen2109/identity-svc:latest
     build:
